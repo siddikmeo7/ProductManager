@@ -1,0 +1,21 @@
+Команды для выполнения
+
+
+``
+Добавить продукт:
+python manager.py products.txt add --name "Onion" --price 4
+
+
+``
+Изменить продукт:
+python manager.py products.txt update --name "Carrot" --price 7
+
+
+``
+Удалить продукт:
+python manager.py products.txt delete --name "Tomato"
+
+
+``
+Посчитать сумму:
+python manager.py products.txt sum
